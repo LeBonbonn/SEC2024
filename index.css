@@ -1,0 +1,21 @@
+.company{
+    text-align:center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.content{
+    text-align:center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    height: 215px;
+}
+body{
+    background-color: yellow;
+}
