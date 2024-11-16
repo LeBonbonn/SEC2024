@@ -7,10 +7,10 @@ if (document.getElementById('data')) {
         let income = parseFloat(document.getElementById('income').value);
         let house = parseFloat(document.getElementById('house').value);
         let savings = parseFloat(document.getElementById('savings').value);
-        stocks *= 0.07 * 10;
-        income *= 0.04 * 10;
-        house *= 0.03 * 10;
-        savings *= 0.0001 * 10;
+        stocks *= (1 + 0.07)**10; 
+        income *= (1 + 0.04)**10;
+        house *= (1 + 0.03)**10;
+        savings *= (1 + 0.0001)**10;
         localStorage.setItem('stocks', stocks);
         localStorage.setItem('income', income);
         localStorage.setItem('house', house);
